@@ -43,21 +43,30 @@ Use the graphic below to answer the following questions:
 | **http://**      | **`www.buyitnow.tv`**     | **/add.asp**           | **?item=price#1999**     |
 
 
-1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system? 
+1. Which part of the URL can be manipulated by an attacker to exploit a vulnerable back-end database system?
+- `Parameters`
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
+- `Path`
 
    
 3. Name three threat agents that can pose a risk to your organization.
+- Cross-site Scripting
+- Directory Traversal
+- DOS
 
 
 4. What kinds of sources can act as an attack vector for injection attacks?
+- `SQL`
 
 
 5. Injection attacks exploit which part of the CIA triad?
+- Integrity
 
 
 6. Which two mitigation methods can be used to thwart injection attacks?
+- Input Sanitation
+- Input Validation
 
 ____
 
