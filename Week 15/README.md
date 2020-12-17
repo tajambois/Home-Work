@@ -85,17 +85,22 @@ Use the graphic below to answer the following questions:
    
    
 1. What stage is the most inner part of the web architecture where data such as, customer names, addresses, account numbers, and credit card info, is stored?
+- Database
 
 
 2. Which stage includes online forms, word processors, shopping carts, video and photo editing, spreadsheets, file scanning, file conversion, and email programs such as Gmail, Yahoo and AOL.
+- Web Application
 
 
 3. What stage is the component that stores files (e.g. HTML documents, images, CSS stylesheets, and JavaScript files) that's connected to the Internet and provides support for physical data interactions between other devices connected to the web?
+- Web Server
 
 4. What stage is where the end user interacts with the World Wide Web through the use of a web browser?
+- Client
 
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
+- Firewall
 
 ----
 
@@ -133,12 +138,15 @@ WAFs are designed to defend against different types of HTTP attacks and various 
 WAFs are typically present on web sites that use strict transport security mechanisms such as online banking or e-commerce websites.
 
 1. Which layer of the OSI model do WAFs operate at?
+- Application Layer (`7`)
 
 
 2. A WAF helps protect web applications by filtering and monitoring what?
+- Traffic - Allow and Deny lists
 
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
+- TRUE
 
 ____
 
@@ -152,7 +160,7 @@ Security enhancements designed to require users to present two or more pieces of
 
 1. Define all four factors of multifactor authentication and give examples of each:
 
-   - Factor 1
+   - Factor 1: Standar inputs
 
    
    - Factor 2
