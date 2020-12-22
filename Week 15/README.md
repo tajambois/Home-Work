@@ -227,6 +227,8 @@ Your first mission is to break the authentication scheme. There are a number of 
 
 Please include a screenshot here of the hidden JavaScript:
 
+![Challenge One](https://github.com/tajambois/Home-Work/blob/main/Week%2015/Screenshot/Challenge%20One.png)
+
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
 #### Challenge #2
@@ -237,7 +239,9 @@ Next, steal all of the credit card numbers from the database.
 
 - **Hint #2**: Break your way into the conversation and inject your own ideas.
 
-Please include a screenshot here of all the credit card numbers from the database. 
+Please include a screenshot here of all the credit card numbers from the database.
+
+![Challenge Two](https://github.com/tajambois/Home-Work/blob/main/Week%2015/Screenshot/Challenege%20Two.png)
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
 
@@ -304,6 +308,8 @@ Your final act is to deface the website using command injection. Follow the walk
    ![absolute path](Images/webscarab_abolute_path.png)
    
    - Remember, our present working directory is `/var/lib/tomcat6`. Therefore, the relative path is `webapps/WebGoat/webgoat_challenge_guest.jsp`.
+   
+   ![Challenege Three](https://github.com/tajambois/Home-Work/blob/main/Week%2015/Screenshot/Challange%20Three.png)
    
 **Now it's your turn**   
 
