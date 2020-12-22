@@ -111,23 +111,30 @@ In today’s globally connected cyber community, network and OS level attacks ar
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
 
+- Sanitization
 
 2. Name the process that tests user and application-supplied input. The process is designed to prevent malformed data from entering a data information system by verifying user input meets a specific set of criteria (i.e. a string that does not contain standalone single quotation marks).
 
+- Validation
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
 
+- Budget
+- Security Knwowledge
+- Management 
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 
+- Locating other endpoints and information, which allows an attacker information for exploiting.
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 
+- Proxiy Registration
    
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
-
+- FALSE: User can control user site traffic "burp suite".
 
 ____
 
@@ -183,6 +190,7 @@ Security enhancements designed to require users to present two or more pieces of
    
 4. What is a constrained user interface? 
 
+- Less access to the website, Public only access.
 ----
 ____
 
