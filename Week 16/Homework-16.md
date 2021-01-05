@@ -62,7 +62,7 @@ Your client has asked that you help identify any vulnerabilities with their file
   - Grants an attacker remote access to control machine
 
   3. What mitigation strategies can you recommendations for the client to protect their server:
-  - Turn off these ports.
+  - Close these ports.
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
