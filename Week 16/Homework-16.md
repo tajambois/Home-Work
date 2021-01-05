@@ -3,10 +3,10 @@
 #### Step 1: Google Dorking
 
 
-- Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
+1. Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
 - Karl Fitzgerald
 
-- How can this information be helpful to an attacker:
+2. How can this information be helpful to an attacker:
 - Spear Phishing
 
 
@@ -14,16 +14,16 @@
 
 Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
 
-  1. Where is the company located:
+ 3. Where is the company located:
    - Sunnyvale, CA
 
-  2. What is the NetRange IP address:
+ 4. What is the NetRange IP address:
   - 65.61.137.64 - 65.61.137.127
 
-  3. What is the company they use to store their infrastructure:
+ 5. What is the company they use to store their infrastructure:
   - Rackspace Backbone Engineering
 
-  4. What is the IP address of the DNS server:
+ 6. What is the IP address of the DNS server:
   - 	65.61.137.117
 
 #### Step 3: Shodan
@@ -39,13 +39,14 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
 Is Altoro Mutual vulnerable to XSS: 
 - YES
+[XSS](https://github.com/tajambois/Home-Work/blob/main/Week%2016/Images/XSS.png) 
 
 ### Step 5: Zenmap
 
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 
 - Command for Zenmap to run a service scan against the Metasploitable machine:
-- nmao -T4 -A -v0192.168.0.10
+- nmap -T4 -A -v0192.168.0.10
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
 
