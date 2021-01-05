@@ -39,6 +39,7 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 
 Is Altoro Mutual vulnerable to XSS: 
 - YES
+
 ![XSS](https://github.com/tajambois/Home-Work/blob/main/Week%2016/Images/XSS.png) 
 
 ### Step 5: Zenmap
