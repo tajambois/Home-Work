@@ -7,7 +7,7 @@
 - Karl Fitzgerald
 
 2. How can this information be helpful to an attacker:
-- Spear Phishing, using social enginnering posing as the CEO will potential have employees click links or other exploits.
+- Spear Phishing, using social enginnering posing as the CEO will potentially have employees click links or other exploits.
 
 
 #### Step 2: DNS and Domain Discovery
