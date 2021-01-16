@@ -73,6 +73,8 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
     - How long did it take your systems to recover?
      - 12 Hrs.
 
+![Week 18-1](https://github.com/tajambois/Home-Work/blob/main/Week%2018/Screenshot/wk18-1.png)
+
 Submit a screen shot of your report and the answer to the questions above.
  
 ### Step 2: Are We Vulnerable? 
