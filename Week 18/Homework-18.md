@@ -69,7 +69,9 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 `source="server_speedtest.csv" | eval ratio = 'UPLOAD_MEGABITS' / 'DOWNLOAD_MEGABITS' | table _time, IP_ADDRESS, DOWNLOAD_MEGABITS, UPLOAD_MEGABITS, ratio`
 
     - Based on the report created, what is the approximate date and time of the attack?
+     - 2/23/2020
     - How long did it take your systems to recover?
+     - 12 Hrs.
 
 Submit a screen shot of your report and the answer to the questions above.
  
