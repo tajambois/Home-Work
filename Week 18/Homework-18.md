@@ -66,6 +66,8 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
 4. Answer the following questions:
 
+source="server_speedtest.csv" | eval ratio = 'UPLOAD_MEGABITS' / 'DOWNLOAD_MEGABITS' | table _time, IP_ADDRESS, DOWNLOAD_MEGABITS, UPLOAD_MEGABITS, ratio
+
     - Based on the report created, what is the approximate date and time of the attack?
     - How long did it take your systems to recover?
 
