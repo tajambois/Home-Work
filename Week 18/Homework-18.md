@@ -94,6 +94,8 @@ Submit a screen shot of your report and the answer to the questions above.
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
+`source="nessus_logs.csv" dest_ip="10.11.36.23" | stats count by severity`
+
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
 
