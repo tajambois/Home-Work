@@ -1,50 +1,6 @@
 ## Unit 18 Homework: Lets go Splunking!
 
-### Scenario
-
-You have just been hired as an SOC Analyst by Vandalay Industries, an importing and exporting company.
- 
-- Vandalay Industries uses Splunk for their security monitoring and have been experiencing a variety of security issues against their online systems over the past few months. 
- 
-- You are tasked with developing searches, custom reports and alerts to monitor Vandalay's security environment in order to protect them from future attacks.
-
-
-### System Requirements 
-
-You will be using the Splunk app located in the Ubuntu VM.
-
-
-### Your Objective 
-
-Utilize your Splunk skills to design a powerful monitoring solution to protect Vandaly from security attacks.
-
-After you complete the assignment you are asked to provide the following:
-
-- Screen shots where indicated.
-- Custom report results where indicated.
-
-### Topics Covered in This Assignment
-
-- Researching and adding new apps
-- Installing new apps
-- Uploading files
-- Splunk searching
-- Using fields
-- Custom reports
-- Custom alerts
-
-Let's get started!
-
----
-
-## Vandalay Industries Monitoring Activity Instructions
-
-
 ### Step 1: The Need for Speed 
-
-**Background**: As the worldwide leader of importing and exporting, Vandalay Industries has been the target of many adversaries attempting to disrupt their online business. Recently, Vandaly has been experiencing DDOS attacks against their web servers.
-
-Not only were web servers taken offline by a DDOS attack, but upload and download speed were also significantly impacted after the outage. Your networking team provided results of a network speed run around the time of the latest DDOS attack.
 
 **Task:** Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.
 
@@ -79,10 +35,6 @@ Submit a screen shot of your report and the answer to the questions above.
  
 ### Step 2: Are We Vulnerable? 
 
-**Background:**  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
-
-  - For more information on Nessus, read the following link: https://www.tenable.com/products/nessus
-
 **Task:** Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
 
 1. Upload the following file from the Nessus vulnerability scan.
@@ -101,9 +53,6 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 ![Week18-2](https://github.com/tajambois/Home-Work/blob/main/Week%2018/Screenshot/wk18-2.png)
 
 ### Step 3: Drawing the (base)line
-
-**Background:**  A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
-
 
 **Task:** Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
 
