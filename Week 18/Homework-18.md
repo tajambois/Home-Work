@@ -121,6 +121,10 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
+
+![wk18-3](https://github.com/tajambois/Home-Work/blob/main/Week%2018/Screenshot/wk18-3.png)
+
+![wk18-4](https://github.com/tajambois/Home-Work/blob/main/Week%2018/Screenshot/wk18-4.png)
  
  
 ### Your Submission
