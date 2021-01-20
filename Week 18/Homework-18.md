@@ -98,6 +98,7 @@ Submit a screen shot of your report and the answer to the questions above.
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
+![Week18-2](https://github.com/tajambois/Home-Work/blob/main/Week%2018/Screenshot/wk18-2.png)
 
 ### Step 3: Drawing the (base)line
 
