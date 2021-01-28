@@ -21,6 +21,8 @@ Note: This is a public-facing windows server that VSI employees access.
   - Block all incoming POST requests when coming from source IP address from Kyiv, Ukraine.
 
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
+
+![wk19-1](https://github.com/tajambois/Home-Work/blob/main/Week%2019/screenshot/wk-19.png)
   
 #### Question 2
 
