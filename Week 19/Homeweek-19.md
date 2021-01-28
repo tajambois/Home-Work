@@ -10,7 +10,7 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
-  - Creating an alert that would notify staff after 21 bad log on attempts were detected. After baslining this dield for normal behavior, this threshold will notify and better prepare SOC for action.
+  - Creating an alert that would notify staff after 21 bad log on attempts were detected. After baslining this action for normal behavior, this threshold will notify and better prepare SOC for action.
   
 
 ### Part 2: Apache Webserver Attack:
