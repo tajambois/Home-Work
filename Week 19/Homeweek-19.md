@@ -5,10 +5,12 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 1
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
+ - Due to the high volume of pressure on password bruting, it would be this anaylst recommendation for education to employee about password strength and indiviudailty. Having cergtain length and special charaters are a must. Not repeating the same password across platforms and services is also crutial.
   
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
+  - Creating an alert that would notify staff after 21 bad log on attempts were detected. After baslining this dield for normal behavior, this threshold will notify and better prepare SOC for action.
   
 
 ### Part 2: Apache Webserver Attack:
