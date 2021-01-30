@@ -31,6 +31,8 @@ Note: This is a public-facing windows server that VSI employees access.
 - What other rules can you create to protect VSI from attacks against your webserver?
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
+    - Alert for same MAC address attempting contact of 10 more time in a row
+    - An Alert of high activity on a given port
   
 
 
