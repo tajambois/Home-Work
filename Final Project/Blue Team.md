@@ -8,19 +8,27 @@
 - Suggestions for Going Further
 
 ### Network Topology
-_TODO: Fill out the information below._
-
 The following machines were identified on the network:
-- Name of VM 1
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Name of VM 2
-  - **Operating System**:
-  - **Purpose**:
-  - **IP Address**:
-- Etc.
-
+- TARGET1
+  - **Operating System**: Linux
+  - **Purpose**: Webserver
+  - **IP Address**: 192.168.1.110
+- TARGET2
+  - **Operating System**: Linux
+  - **Purpose**: Webserver
+  - **IP Address**: 192.168.1.115
+- Capstone
+ - **Operating System**: Linux
+  - **Purpose**: Webserver
+  - **IP Address**: 192.168.1.105
+ - ELK
+ - **Operating System**: Linux
+  - **Purpose**: Webserver
+  - **IP Address**: 192.168.1.115
+ - Kali
+ - **Operating System**: Linux
+  - **Purpose**: Attack Machine
+  - **IP Address**: 192.168.1.90
 ### Description of Targets
 _TODO: Answer the questions below._
 
