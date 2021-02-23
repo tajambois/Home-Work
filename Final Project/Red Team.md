@@ -6,14 +6,10 @@
 - Exploitation
 
 ### Exposed Services
-_TODO: Fill out the information below._
 
-Nmap scan results for each machine reveal the below services and OS details:
+Nmap scan results for target machine reveal services and OS details:
 
-```bash
-$ nmap ... # TODO: Add command to Scan Target 1
-  # TODO: Insert scan output
-```
+![target 1](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/2021-02-22_20h21_56.png)
 
 This scan identifies the services below as potential points of entry:
 - Target 1
