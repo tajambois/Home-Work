@@ -18,15 +18,15 @@ The following machines were identified on the network:
   - **Purpose**: Webserver
   - **IP Address**: 192.168.1.115
 - Capstone
- - **Operating System**: Linux
+  - **Operating System**: Linux
   - **Purpose**: Webserver
   - **IP Address**: 192.168.1.105
  - ELK
- - **Operating System**: Linux
+  - **Operating System**: Linux
   - **Purpose**: Webserver
   - **IP Address**: 192.168.1.115
  - Kali
- - **Operating System**: Linux
+  - **Operating System**: Linux
   - **Purpose**: Attack Machine
   - **IP Address**: 192.168.1.90
 ### Description of Targets
