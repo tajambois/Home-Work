@@ -32,19 +32,23 @@ _TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt`
+  - `flag1.txt`:
+![Flag 1](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/flag1.png)
     - **Exploit Used**
-      - CWE-200 iformation disclosure
-      - View page source
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
+      - CWE-200 information disclosure
+      - View page source, and located developer note (-!) left behind.
+  - `flag2.txt`
+![Flag 2](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/flag2.png)
     - **Exploit Used**
       - CWE-521: Weak Password Requirements
-      - _TODO: Include the command run_
-  - `flag3.txt`: _TODO: Insert `flag3.txt` hash value_
+      - Password was found on lucky hunch. Hydra could have been used as well.
+  - `flag3.txt`:
+![Flag 3](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/flag3.png)
     - **Exploit Used**
       - CWE-312 Cleartext Storage of Sensitive Information
-      - _TODO: Include the command run_
-  - `flag4.txt`: _TODO: Insert `flag4.txt` hash value_
+      - Within the wp-config.php provided MySql username/password information
+  - `flag4.txt`:
+![Flag4](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/flag4.png)
     - **Exploit Used**
       - CWE-284: Improper Access Control
       - `sudo python -c 'import os; os.system("/bin/bash")'`
