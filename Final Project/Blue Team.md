@@ -55,7 +55,7 @@ Alert 3 is implemented as follows:
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
-![alerts]"https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/2021-02-22_19h35_12.png"
+![alerts]'https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/2021-02-22_19h35_12.png'
 
 ### Suggestions for Going Further (Optional)
 _TODO_: 
