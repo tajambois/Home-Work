@@ -36,7 +36,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 ![Flag 1](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/flag1.png)
     - **Exploit Used**
       - CWE-200 information disclosure
-      - View page source, and located developer note (-!) left behind.
+      - View page source, and located developer note (<!--) left behind.
   - `flag2.txt`
 ![Flag 2](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/flag2.png)
     - **Exploit Used**
