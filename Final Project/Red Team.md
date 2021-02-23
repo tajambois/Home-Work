@@ -23,6 +23,7 @@ The following vulnerabilities were identified on each target:
   - List of
   - Critical
   - Vulnerabilities
+  - WordPress v. 4.8.15
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
