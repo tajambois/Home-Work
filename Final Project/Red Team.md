@@ -32,20 +32,20 @@ _TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: _TODO: Insert `flag1.txt`
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+      - CWE-200 iformation disclosure
+      - View page source
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
+      - CWE-521: Weak Password Requirements
       - _TODO: Include the command run_
   - `flag3.txt`: _TODO: Insert `flag3.txt` hash value_
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
+      - CWE-312 Cleartext Storage of Sensitive Information
       - _TODO: Include the command run_
   - `flag4.txt`: _TODO: Insert `flag4.txt` hash value_
     - **Exploit Used**
-      - _TODO: Identify the exploit used_
+      - CWE-284: Improper Access Control
       - _TODO: Include the command run_
 
