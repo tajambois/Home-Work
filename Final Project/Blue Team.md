@@ -40,24 +40,24 @@ Target 1 is an Apache web server and has SSH enabled, so ports 80 and 22 are pos
 
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
-#### HTTP Request Size Monitor
+#### Excessive HTTP Errors
 This alert is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: 
+  - **Metric**: HTTP Errors
+  - **Threshold**: 400 Errors
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 #### HTTP Request Size Monitor
 This alert is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
+  - **Metric**: HTTP Size
+  - **Threshold**: 3500 Requests
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 #### CPU Usage Monitor
 this alert is implemented as follows:
-  - **Metric**: TODO
-  - **Threshold**: TODO
+  - **Metric**: CPU Usage
+  - **Threshold**: 0.5
   - **Vulnerability Mitigated**: TODO
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
