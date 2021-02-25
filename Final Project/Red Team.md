@@ -21,10 +21,10 @@ The following vulnerabilities were identified on each target:
   - Samba smbd
   - WordPress v. 4.8.15
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._nitko
+![Scan](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/2021-02-24_20h42_57.png)
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
+root
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
