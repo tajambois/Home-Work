@@ -13,19 +13,15 @@ Nmap scan results for target machine reveal services and OS details:
 
 This scan identifies the services below as potential points of entry:
 - Target 1
-  - List of
-  - Exposed Services
-
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
+  - Port 20 - SSH
+  - Port - 80 HTTP
 
 The following vulnerabilities were identified on each target:
 - Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
+  - Samba smbd
   - WordPress v. 4.8.15
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
+_TODO: Include vulnerability scan results to prove the identified vulnerabilities._nitko
 
 ### Exploitation
 _TODO: Fill out the details below. Include screenshots where possible._
