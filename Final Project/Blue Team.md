@@ -43,22 +43,22 @@ Traffic to these services should be carefully monitored. To this end, we have im
 #### Excessive HTTP Errors
 This alert is implemented as follows:
   - **Metric**: HTTP Errors
-  - **Threshold**: 400 Errors
-  - **Vulnerability Mitigated**: TODO
+  - **Threshold**: 400 Errors, top five, within 5 minutes
+  - **Vulnerability Mitigated**: Directory Busting
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 #### HTTP Request Size Monitor
 This alert is implemented as follows:
   - **Metric**: HTTP Size
   - **Threshold**: 3500 Requests
-  - **Vulnerability Mitigated**: TODO
+  - **Vulnerability Mitigated**: Server Side Validation
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 #### CPU Usage Monitor
 this alert is implemented as follows:
   - **Metric**: CPU Usage
   - **Threshold**: 0.5
-  - **Vulnerability Mitigated**: TODO
+  - **Vulnerability Mitigated**: Brute Froce
   - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 
 ![alerts](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/2021-02-22_19h35_12.png)
