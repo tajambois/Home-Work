@@ -40,14 +40,17 @@ The Security team received reports of an infected Windows host on the network. T
 ### Illegal Downloads
 
 IT was informed that some users are torrenting on the network. The Security team does not forbid the use of torrents for legitimate purposes, such as downloading operating systems. However, they have a strict policy against copyright infringement.
-IT shared the following about the torrent activity:
-The machines using torrents live in the range 10.0.0.0/24 and are clients of an AD domain.
-The DC of this domain lives at 10.0.0.2 and is named DogOfTheYear-DC.
-The DC is associated with the domain dogoftheyear.net.
-Your task is to isolate torrent traffic and answer the following questions:
-Find the following information about the machine with IP address 10.0.0.201:
-MAC address
-Windows username
-OS version
 
-Which torrent file did the user download?
+IT shared the following about the torrent activity:
+- The machines using torrents live in the range 10.0.0.0/24 and are clients of an AD domain.
+- The DC of this domain lives at 10.0.0.2 and is named DogOfTheYear-DC.
+- The DC is associated with the domain dogoftheyear.net.
+
+Your task is to isolate torrent traffic and answer the following questions:
+
+1. Find the following information about the machine with IP address 10.0.0.201:
+ - MAC address
+ - Windows username
+ - OS version
+
+2. Which torrent file did the user download?
