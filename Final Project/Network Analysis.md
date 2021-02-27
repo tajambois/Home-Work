@@ -8,19 +8,20 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 ### You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
- - www.mysocalledchaos.com
+ - frank-n-ted.com
  
 2. What is the IP address of the Domain Controller (DC) of the AD network?
- 
+ - 10.6.12.157
 3. What is the name of the malware downloaded to the 10.6.12.203 machine? Once you have found the file, export it to your Kali machine's desktop.
- 
+ - June11.d11
 4. Upload the file to VirusTotal.com. What kind of malware is this classified as?
- 
+ - Trojan Horse
  
  
 ### Vulnerable Windows Machines
 The Security team received reports of an infected Windows host on the network. They know the following:
-- Machines in the network live in the range 172.16.4.0/24.
+- Machines in the network live in the range 172.16.4.0/24
+  -172.16.4.0/24
 - The domain mind-hammer.net is associated with the infected computer.
 - The DC for this network lives at 172.16.4.4 and is named Mind-Hammer-DC.
 - The network has standard gateway and broadcast addresses.
