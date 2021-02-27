@@ -8,6 +8,7 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 ### You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
+ - www.mysocalledchaos.com
  
 2. What is the IP address of the Domain Controller (DC) of the AD network?
  
