@@ -45,35 +45,21 @@ This alert is implemented as follows:
   - **Metric**: HTTP Errors
   - **Threshold**: 400 Errors, top five, within 5 minutes
   - **Vulnerability Mitigated**: Directory Busting
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Reliability**: Medium
 
 #### HTTP Request Size Monitor
 This alert is implemented as follows:
   - **Metric**: HTTP Size
   - **Threshold**: 3500 Requests
   - **Vulnerability Mitigated**: Server Side Validation
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Reliability**: Medium
 
 #### CPU Usage Monitor
 this alert is implemented as follows:
   - **Metric**: CPU Usage
   - **Threshold**: 0.5
   - **Vulnerability Mitigated**: Brute Froce
-  - **Reliability**: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+  - **Reliability**: Medium
 
 ![alerts](https://github.com/tajambois/Home-Work/blob/main/Final%20Project/images/2021-02-22_19h35_12.png)
 
-### Suggestions for Going Further (Optional)
-_TODO_: 
-- Each alert above pertains to a specific vulnerability/exploit. Recall that alerts only detect malicious behavior, but do not stop it. For each vulnerability/exploit identified by the alerts above, suggest a patch. E.g., implementing a blocklist is an effective tactic against brute-force attacks. It is not necessary to explain _how_ to implement each patch.
-
-The logs and alerts generated during the assessment suggest that this network is susceptible to several active threats, identified by the alerts above. In addition to watching for occurrences of such threats, the network should be hardened against them. The Blue Team suggests that IT implement the fixes below to protect the network:
-- Vulnerability 1
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 2
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
-- Vulnerability 3
-  - **Patch**: TODO: E.g., _install `special-security-package` with `apt-get`_
-  - **Why It Works**: TODO: E.g., _`special-security-package` scans the system for viruses every day_
