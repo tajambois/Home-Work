@@ -21,7 +21,6 @@ At least two users on the network have been wasting time on YouTube. Usually, IT
 ### Vulnerable Windows Machines
 The Security team received reports of an infected Windows host on the network. They know the following:
 - Machines in the network live in the range 172.16.4.0/24
-  -172.16.4.0/24
 - The domain mind-hammer.net is associated with the infected computer.
 - The DC for this network lives at 172.16.4.4 and is named Mind-Hammer-DC.
 - The network has standard gateway and broadcast addresses.
@@ -29,15 +28,18 @@ The Security team received reports of an infected Windows host on the network. T
 ### Inspect your traffic to answer the following questions:
 
 1. Find the following information about the infected Windows machine:
--- Host name:
--- IP address:
--- MAC address:
+-- Host name: ROTTERDAM-PC
+-- IP address: 172.16.4.205
+-- MAC address: 00:59:07:b0:63:a4
 
 2. What is the username of the Windows user whose computer is infected?
+- Matthijs.devries
  
 3. What are the IP addresses used in the actual infection traffic?
+- 182.243.115.24
  
 4. As a bonus, retrieve the desktop background of the Windows host.
+- Aloe Plant
 
 ### Illegal Downloads
 
@@ -51,8 +53,9 @@ IT shared the following about the torrent activity:
 Your task is to isolate torrent traffic and answer the following questions:
 
 1. Find the following information about the machine with IP address 10.0.0.201:
- - MAC address
- - Windows username
- - OS version
+ - MAC address: 00:16:17:18:66:c8
+ - Windows username: Blanco
+ - OS version: Windows V. 65535
 
 2. Which torrent file did the user download?
+- Betty Boop Rhythm on the Reservation.avi.torrent
