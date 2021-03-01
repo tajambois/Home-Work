@@ -28,9 +28,9 @@ The Security team received reports of an infected Windows host on the network. T
 ### Inspect your traffic to answer the following questions:
 
 1. Find the following information about the infected Windows machine:
--- Host name: ROTTERDAM-PC
--- IP address: 172.16.4.205
--- MAC address: 00:59:07:b0:63:a4
+- Host name: ROTTERDAM-PC
+- IP address: 172.16.4.205
+- MAC address: 00:59:07:b0:63:a4
 
 2. What is the username of the Windows user whose computer is infected?
 - Matthijs.devries
